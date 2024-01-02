@@ -10,9 +10,9 @@
       @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
       body {
         font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
         margin: 0;
         padding: 0;
+        background-color: rgba(21, 224, 177, 0.539);
       }
       header {
         background-color: #004d54;
@@ -25,6 +25,11 @@
         margin: 2rem;
         position: static;
       }
+
+      h1{
+        color: #000000;
+      }
+      
       h2 {
         color: #004d54;
       }
@@ -48,33 +53,26 @@
       }
 
       /* Button */
-      .button-container {
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translate(0, -50%);
-      }
       .button {
         color: #000000;
-        padding: 0.1rem 0.2rem;
+        padding: 0.1rem 0.2srem;
         border: none;
         margin: 20px;
         cursor: pointer;
         font-size: xx-large;
         border-radius: 50%;
-        transition: background-color 0.3s ease-in-out;
       }
       .button-left {
+        display: inline;
         position: absolute;
         top: 50%;
         left: 0;
-        transform: translate(0, -50%);
+        transform: translate(0, -5%);
       }
-
-      .button:hover {
-            background-color: rgb(80, 68, 209);
-            transform: scale(1.1);
-          }
+    
+    .button-left:hover {
+      transform: scale(1.0);
+    }
 
       /* Social */
       #Social {
@@ -87,7 +85,7 @@
 </head>
 <body>
   <header>
-    <h1>David Ibnu Harris</h1>
+    <h1>DAVID IBNU HARRIS</h1>
   </header>
   <section>
     <figure>
@@ -104,7 +102,7 @@
   </section>
   <section>
     <div class="button-left">
-        <a class="button" href="BIO 1.html"><i class="bi bi-arrow-left-circle-fill"></i></a>
+        <a class="button" href="BIO 1.html"><i class="bi bi-arrow-left-circle-fill" ></i></a>
       </div>
   </section>
 </body>

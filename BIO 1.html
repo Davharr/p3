@@ -10,7 +10,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      background-color: rgba(21, 224, 177, 0.539);
       margin: 0;
       padding: 0;
     }
@@ -25,6 +25,11 @@
       margin: 2rem;
       position: static;
     }
+
+    h1{
+        color: #000000;
+      }
+
     h2 {
       color: #004d54;
     }
@@ -52,7 +57,7 @@
       position: absolute;
       top: 50%;
       right: 0;
-      transform: translate(0, -50%);
+      transform: translate(0, -8%);
     }
     .button {
       color: #000000;
@@ -68,12 +73,17 @@
       position: absolute;
       top: 50%;
       left: 0;
-      transform: translate(0, -50%);
+      transform: translate(0, -8%);
     }
 
-    .button:hover {
-      background-color: rgb(80, 68, 209);
-      transform: scale(1.1);
+    .button-container:hover {
+      transform: scale(1.0);
+      
+    }
+    
+    .button-left:hover {
+      transform: scale(1.0);
+      animation:forwards;
     }
 
     /* Social */
